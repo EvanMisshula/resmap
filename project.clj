@@ -19,9 +19,9 @@
   :cljsbuild {:builds [{:id "dev"
                         :source-paths ["src/cljs"]
 
-                        :figwheel {:on-jsload "github-profile.core/mount-root"}
+                        :figwheel {:on-jsload "resmap.core/mount-root"}
 
-                        :compiler {:main github-profile.core
+                        :compiler {:main resmap.core
                                    :output-to "resources/public/js/compiled/app.js"
                                    :output-dir "resources/public/js/compiled/out"
                                    :asset-path "js/compiled/out"
